@@ -1,0 +1,55 @@
+.div-1{
+    height: 360px;
+    width: 730px;
+    border: 1px solid gray;
+    background-image: url("Capture1.PNG");
+}
+
+.div-2{
+    height: 60px;
+    width: 288px;
+    position: relative;
+    top: 80px;
+    left: 380px;
+    /*border: 1px solid chartreuse;*/
+    /*background-color: black;*/
+    box-shadow: 0px 0px 5px 5px gray;
+}
+
+.div-31{
+    height: 60px;
+    width: 81px;
+    border: 2px solid gray;
+    float: left;
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+.div-32{
+    height: 60px;
+    width: 81px;
+    border: 2px solid gray;
+    float: left;
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+.div-33{
+    height: 60px;
+    width: 81px;
+    border: 2px solid gray;
+    border-right: none;
+    float: left;
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+.div-34{
+    height: 60px;
+    width: 33px;
+    border: 2px solid gray;
+    border-left: none;
+    float: left;
+    color: black;
+    font-size: 20px;
+}

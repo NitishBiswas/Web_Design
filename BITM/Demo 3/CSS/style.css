@@ -1,0 +1,36 @@
+*{box-sizing: border-box; }
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.main-li{
+    float: left;
+    width: 250px;
+    text-align: center;
+}
+.main-li a{
+    border: 1px solid chartreuse;
+    text-decoration: none;
+    height: 50px;
+    padding-top: 13px;
+    display: block;
+    background-color: black;
+    color: white;
+    transition: 1.5s;
+}
+.main-li a:hover{
+    background-color: white;
+    color: red;
+}
+.test{
+    display: none;
+}
+.main-li:hover .test{
+    display: block;
+}

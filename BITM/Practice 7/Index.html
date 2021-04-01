@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>Phone Number: </td>
+                <td><input type="number" id="phoneNumber"/></td>
+            </tr>
+            <tr>
+                <td>Receive Number: </td>
+                <td><input type="number" id="receiveNumber"/> </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" id="btn" value="Submit"/></td>
+            </tr>
+        </table>
+
+        <script>
+
+            var btnElement = document.getElementById('btn');
+            btnElement.onclick = function () {
+               var receiveNumber = document.getElementById('phoneNumber').value;
+                number(receiveNumber);
+            };
+
+            function number(receiveNumber) {
+                var number = document.getElementById('receiveNumber').value = receiveNumber;
+            }
+        </script>
+    </body>
+</html>

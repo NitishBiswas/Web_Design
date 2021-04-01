@@ -1,0 +1,35 @@
+*{box-sizing: border-box; }
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.test{
+    height: 50px;
+    width: 100%;
+    border: 1px solid chartreuse;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+ul li{
+    float: left;
+    border: 1px solid chartreuse;
+    width: 20%;
+    height: 48px;
+    background-color: black;
+}
+ul li a{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding-top: 14px;
+    color: white;
+}
+ul li a:hover{
+    color: red;
+}

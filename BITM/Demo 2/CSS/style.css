@@ -1,0 +1,28 @@
+/**{box-sizing: border-box; }*/
+body{
+    margin: 50px;
+    padding: 0px;
+}
+
+.test{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 90px;
+    left: 160px;
+}
+.test-1{
+    height: 300px;
+    width: 400px;
+    background-color: green;
+}
+.test-2{
+    height: 800px;
+    width: 15px;
+    background-color: gray;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}

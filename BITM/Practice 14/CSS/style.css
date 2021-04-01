@@ -1,0 +1,12 @@
+.div-1{
+    height: 300px;
+    width: 300px;
+    border: 1px solid;
+}
+
+.background{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    color: chartreuse;
+}

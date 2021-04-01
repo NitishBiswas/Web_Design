@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="023ea496-1488-4ec4-8068-6a3051c790ad" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Pum6Sm4rBNoNfWhpx6GjSgVNd0" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Practice 19" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\HTML\Practice 19" />
+      <recent name="D:\HTML\Practice 18" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\HTML\Practice 5\CSS" />
+      <recent name="D:\HTML\Practice 5" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="023ea496-1488-4ec4-8068-6a3051c790ad" name="Default Changelist" comment="" />
+      <created>1566732180599</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566732180599</updated>
+      <workItem from="1566732190099" duration="3938000" />
+      <workItem from="1566832949474" duration="9471000" />
+      <workItem from="1566986484122" duration="12320000" />
+      <workItem from="1567054659112" duration="7170000" />
+      <workItem from="1567105906324" duration="6448000" />
+      <workItem from="1567116152684" duration="6298000" />
+      <workItem from="1567234024031" duration="4780000" />
+      <workItem from="1567315330323" duration="19639000" />
+      <workItem from="1567412741529" duration="213000" />
+      <workItem from="1567420213103" duration="242000" />
+      <workItem from="1567445295232" duration="2146000" />
+      <workItem from="1567511307937" duration="665000" />
+      <workItem from="1567523791556" duration="1486000" />
+      <workItem from="1567643330854" duration="1868000" />
+      <workItem from="1567651026861" duration="8888000" />
+      <workItem from="1567821987792" duration="2350000" />
+      <workItem from="1567880381047" duration="7602000" />
+      <workItem from="1567915204842" duration="16569000" />
+      <workItem from="1568055996873" duration="8997000" />
+      <workItem from="1568096018379" duration="3084000" />
+      <workItem from="1568169619024" duration="965000" />
+      <workItem from="1568213098502" duration="11356000" />
+      <workItem from="1568302834610" duration="163000" />
+      <workItem from="1568303198774" duration="146000" />
+      <workItem from="1568309382993" duration="9995000" />
+      <workItem from="1568380036100" duration="5142000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

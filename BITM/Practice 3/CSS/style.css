@@ -1,0 +1,167 @@
+*{box-sizing: border-box; }
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.col-1{width: 8.33%; }
+.col-2{width: 16.66%; }
+.col-3{width: 25%; }
+.col-4{width: 33.33%; }
+.col-5{width: 41.66%; }
+.col-6{width: 50%; }
+.col-7{width: 58.33%; }
+.col-8{width: 66.66%; }
+.col-9{width: 75%; }
+.col-10{width: 83.33%; }
+.col-11{width: 91.66%; }
+.col-12{width: 100%; }
+
+[class*='col-']{
+    float: left;
+    border: 1px solid chartreuse;
+    background-color: black;
+}
+
+.row:after{
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+.container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.header-height{height: 200px; color: white; text-align: center; padding-top: 90px;}
+.menu-height{height: 50px; }
+.content-height{height: 600px; color: white; text-align: center; padding-top: 280px;}
+.big-footer-height{height: 200px; color: white; text-align: center; padding-top: 90px;}
+.footer-height{height: 50px; color: white; text-align: center; padding-top: 20px;}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    float: left;
+    width: 20%;
+    border: 1px solid chartreuse;
+}
+ul li a{
+    height: 46px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding-top: 13px;
+    color: white;
+}
+
+ul li a:hover{
+    color: red;
+}
+.logo{
+    transform: rotate(0deg) scale(1);
+    transition: 2s;
+}
+.logo:hover{
+    transform: rotate(3600deg) scale(1.5);
+    color: red;
+}
+.banner{
+    transform: scale(1);
+    transition: 2s;
+}
+.banner:hover{
+    transform: scale(1.5);
+    color: red;
+}
+
+@keyframes demo-1  {
+    0%{background-color: red; }
+    25%{background-color: chartreuse; }
+    50%{background-color: white; }
+    100%{background-color: aqua; }
+}
+.add:hover{
+    animation-name: demo-1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+
+@keyframes demo-2 {
+    0%{left: 0px }
+    50%{left: 980px; }
+    100%{left: 0px; }
+}
+.content:hover{
+    position: relative;
+    animation-name: demo-2;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+.sidebar:hover{
+    transform: skewX(90deg);
+    transition: 2s;
+}
+.bf-1:hover{
+    border-radius: 50%;
+}
+.bf-2{
+    transform: rotate(0deg) scale(1);
+    transition: 2s;
+}
+.bf-2:hover{
+    transform: rotate(3600deg) scale(.5);
+}
+
+@keyframes demo-3 {
+    0%{background-color: red; }
+    25%{background-color: chartreuse; }
+    50%{background-color: white; }
+    100%{background-color: aqua; }
+}
+.bf-3 {
+    transform: scale(1);
+}
+.bf-3:hover{
+    transform: scale(1.5);
+    animation-name: demo-3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@media screen and (max-width: 500px) {
+    [class*='col-']{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 700px){
+    .col-m1{width: 8.33%; }
+    .col-m2{width: 16.66%; }
+    .col-m3{width: 25%; }
+    .col-m4{width: 33.33%; }
+    .col-m5{width: 41.66%; }
+    .col-m6{width: 50%; }
+    .col-m7{width: 58.33%; }
+    .col-m8{width: 66.66%; }
+    .col-m9{width: 75%; }
+    .col-m10{width: 83.33%; }
+    .col-m11{width: 91.66%; }
+    .col-m12{width: 100%; }
+    .test{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .row{
+        position: relative;
+    }
+
+}
+

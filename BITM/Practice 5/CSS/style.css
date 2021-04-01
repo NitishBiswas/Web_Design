@@ -1,0 +1,231 @@
+*{ box-sizing: border-box; }
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.col-1{ width: 8.33%; }
+.col-2{ width: 16.66%; }
+.col-3{ width: 25%; }
+.col-4{ width: 33.33%; }
+.col-5{ width: 41.66%; }
+.col-6{ width: 50%; }
+.col-7{ width: 58.33%; }
+.col-8{ width: 66.66%; }
+.col-9{ width: 75%; }
+.col-10{ width: 83.33%; }
+.col-11{ width: 91.66%; }
+.col-12{ width: 100%; }
+
+[class*='col-']{
+    float: left;
+}
+
+.row:after{
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+.container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.header-top-height{ height: 40px; }
+.header-height{ height: 250px; }
+.menu-height{ height: 50px; }
+.slider-height{ height: 400px; }
+.content-height{ height: 700px; }
+.big-footer-height{ height: 250px; }
+.footer-height{ height: 50px; }
+
+@keyframes slid {
+    0%{ background-image: url("../Images/Screenshot (2).png"); }
+    25%{ background-image: url("../Images/2.jpg"); }
+    50%{ background-image: url("../Images/3.jpg"); }
+    75%{ background-image: url("../Images/4.jpg"); }
+   100%{ background-image: url("../Images/5.jpg"); }
+}
+.slider{
+    height: 100%;
+    width: 100%;
+    animation-name: slid;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-size: 100% 100%;
+}
+.logo{
+    height: 100%;
+    width: 100%;
+}
+.banner{
+    height: 50%;
+    width: 100%;
+    float: left;
+}
+.banner h1{
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    text-shadow: 5px 5px 5px gray;
+}
+.input{
+    float: left;
+    height: 40px;
+    width: 70%;
+    margin-left: 100px;
+
+}
+.input2{
+    float: left;
+    height: 40px;
+    width: 300px;
+    margin-left: 170px;
+}
+.input2:focus{
+    box-shadow: 0px 0px 2px 2px lime;
+}
+.btn{
+    margin-left: 5px;
+    height: 40px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+.btn:hover{
+    background-color: white;
+    color: red;
+    box-shadow:0px 0px 2px 2px lime; ;
+}
+.nitish{
+    float: left;
+    padding-left: 5px;
+    color: red;
+    text-align: center;
+}
+.top{
+    float: right;
+    height: 30px;
+    width: 150px;
+    padding-top: 5px;
+}
+.top a{
+    color: red;
+    text-decoration: none;
+}
+
+.main-ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    position: relative;
+}
+.main-li{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.main-li a{
+    border: 1px solid chartreuse;
+    text-decoration: none;
+    height: 50px;
+    padding-top: 13px;
+    display: block;
+    background-color: black;
+    color: white;
+    transition: 1.5s;
+}
+.main-li a:hover{
+    background-color: white;
+    color: red;
+}
+.test{
+    display: none;
+}
+.main-li:hover .test{
+    display: block;
+}
+
+
+
+.div1{
+    float: left;
+    width: 350px;
+    margin: 20px;
+    padding: 20px;
+    border-left: 5px solid chartreuse;
+}
+.div1:hover{
+    box-shadow: 0px 0px 3px 3px gray;
+}
+.image{
+    height: 150px;
+    width: 200px;
+    float: left;
+    padding-right: 10px;
+}
+.details{
+    float: right;
+    padding: 5px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+.af{
+    text-align: center;
+    padding-top: 120px;
+    box-shadow: 0px 0px 5px 2px gray;
+    color: black;
+    margin: 10px;
+    transform: rotate(0deg) scale(1);
+    transition: 2s;
+}
+.bf{
+    text-align: center;
+    padding-top: 120px;
+    box-shadow: 0px 0px 5px 2px chartreuse;
+    color: black;
+    margin: 10px;
+    transform: rotate(0deg) scale(1);
+    transition: 2s;
+}
+.cf{
+    text-align: center;
+    padding-top: 120px;
+    box-shadow: 0px 0px 5px 2px red;
+    color: black;;
+    margin: 10px;
+    transform: rotate(0deg) scale(1);
+    transition: 2s;
+}
+.gf{
+    margin: 10px;
+    text-align: center;
+    padding-top: 120px;
+    box-shadow: 0px 0px 5px 2px green;
+    color: black;
+    transform: rotate(0deg) scale(1);
+    transition: 2s;
+}
+
+.af:hover{
+    transform: rotate(3600deg) scale(1.5);
+    color: red;
+}
+.bf:hover{
+    transform: rotate(3600deg) scale(1.5);
+    color: red;
+}
+.cf:hover{
+    transform: rotate(3600deg) scale(1.5);
+    color: red;
+}
+.gf:hover{
+    transform: rotate(3600deg) scale(1.5);
+    color: red;
+}
+
+
+
