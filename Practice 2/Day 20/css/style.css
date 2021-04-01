@@ -1,0 +1,200 @@
+*{ box-sizing: border-box; }
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.col-1{ width: 8.33%; }
+.col-2{ width: 16.66%; }
+.col-3{ width: 25%; }
+.col-4{ width: 33.33%; }
+.col-5{ width: 41.66%; }
+.col-6{ width: 50%; }
+.col-7{ width: 58.33%; }
+.col-8{ width: 66.66%; }
+.col-9{ width: 75%; }
+.col-10{ width: 83.33%; }
+.col-11{ width: 91.66%; }
+.col-12{ width: 100%; }
+
+[class*='col-']{
+    float: left;
+    /*border: 1px solid gray;*/
+}
+
+.container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.row:after{
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+.menu-height{ height: 50px; position: relative; }
+.slider-height{ height: 400px; }
+.content-height{ height: 600px; }
+.big-footer-height{ height: 300px; }
+.footer-height{ height: 50px; }
+
+.menu-section{
+    background-color: black;
+}
+.templates{
+    color: white;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
+
+.main-ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    float: right;
+}
+.main-li{
+    float: left;
+    width: 12.5%;
+
+}
+.main-li a{
+    text-decoration: none;
+    height: 48px;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    transition: 2s;
+}
+.main-li a:hover{
+    background-color: white;
+    color: red;
+}
+
+.second-ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: none;
+}
+.second-li a{
+    background-color: black;
+}
+.main-li:hover .second-ul{
+    display: block;
+}
+
+.slider-section{
+    background-color: antiquewhite;
+    padding: 10px 0px;
+}
+
+.slide-images{
+    animation-name: slider;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+@keyframes slider {
+    0%{ background-image: url("../Images/53646075_2170694413241112_7282304791978442752_n.jpg"); background-size: 100% 100%; }
+    25%{ background-image: url("../Images/images.jpg"); background-size: 100% 100%; }
+    50%{ background-image: url("../Images/bd-deer.jpg"); background-size: 100% 100%; }
+    75%{ background-image: url("../Images/Sajek-Valley-Rangamati-Bangladesh-1.jpg"); background-size: 100% 100%; }
+    100%{ background-image: url("../Images/53646075_2170694413241112_7282304791978442752_n.jpg"); background-size: 100% 100%; }
+}
+
+.content-section{
+    padding: 10px 0px;
+    background-color: lightgray;
+}
+.content{
+    padding-bottom: 10px;
+}
+
+.content-image-1{
+    float: left;
+    padding-right: 5px;
+}
+.content-1{
+    float: left;
+    text-align: justify;
+}
+.content-read-1{
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+}
+.cootent-1-part{
+    padding-right: 10px;
+}
+.content-2-part{
+    padding-left: 10px;
+}
+.latest-projects{
+    padding-top: 18px;
+    float: left;
+}
+.latest-projects a{
+    text-decoration: none;
+}
+.content-4{
+    padding-left: 25px;
+}
+.content-5{
+    padding-top: 70px;
+}
+.content-5 h4{
+    margin: 15px;
+}
+
+.big-footer-section{
+    background-color: #51584f;
+    padding: 10px 0px;
+}
+.big-footer-ul li{
+    list-style-type: none;
+}
+.big-footer-ul li a{
+    color: white;
+}
+
+.comment{
+    margin-top: 50px;
+    padding: 10px 100px;
+}
+.btn{
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.footer-ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.footer-ul li{
+    float: left;
+    width: 100px;
+}
+.footer-ul li a{
+    text-decoration: none;
+    height: 48px;
+    padding: 15px;
+    display: block;
+    transition: 2s;
+    color: white;
+}
+.footer-ul li a:hover{
+    background-color: white;
+    color: red;
+}
+.footer-section{
+    background-color: black;
+}
+
+

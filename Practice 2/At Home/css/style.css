@@ -1,0 +1,230 @@
+*{box-sizing: border-box; }
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.col-1{ width: 8.33%; }
+.col-2{ width: 16.66%; }
+.col-3{ width: 25%; }
+.col-4{ width: 33.33%; }
+.col-5{ width: 41.66%; }
+.col-6{ width: 50%; }
+.col-7{ width: 58.33%; }
+.col-8{ width: 66.66%; }
+.col-9{ width: 75%; }
+.col-10{ width: 83.33%; }
+.col-11{ width: 91.66%; }
+.col-12{ width: 100%; }
+
+[class*='col-']{
+    float: left;
+}
+
+.row:after{
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+.container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.header-top-height{ height: 50px; }
+.header-height{ height: 200px; }
+.menu-height{ height: 50px; }
+.content-height{ height: 600px; }
+.big-footer-height{ height: 300px; }
+.footer-height{ height: 50px; }
+
+.info1{
+    float: left;
+    margin-top: 3px;
+}
+.info2{
+    float: right;
+}
+.login{
+    height: auto;
+    width: 450px;
+    border: 1px solid blueviolet;
+    margin-left: 32%;
+    margin-top: 20%;
+    padding: 20px;
+    background-color: rgba(107,255,61,0.41);
+}
+.signUp{
+    height: auto;
+    width: 400px;
+    border: 1px solid blueviolet;
+    margin-left: 32%;
+    margin-top: 10%;
+    padding: 20px;
+    background-color: rgba(107,255,61,0.41);
+}
+
+.row1{
+    background-color: rgba(61,0,167,0.11);
+}
+.logo{
+    background-image: url("../Images/days-in-colours-Logo-1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.welcome{
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    color: chartreuse;
+    text-shadow: 4px 2px gray;
+}
+.search{
+    padding-left: 30px;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+.search:focus{
+    box-shadow: 0px 0px 1px 2px darkgreen;
+}
+.searchBtn{
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+.animation1{
+    animation-name: banner;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes banner {
+    0%{ background-color: rgba(255,0,216,0.22); }
+    25%{ background-color: rgba(72,0,255,0.33); }
+    50%{ background-color: rgba(0,217,255,0.21); }
+    75%{ background-color: rgba(255,212,0,0.21); }
+    100%{ background-color: rgba(255,0,1,0.21); }
+}
+
+.add1{
+    animation-name: add;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+@keyframes add {
+    0%{background-image: url("../Images/IMG_20200329_142238.JPG"); background-repeat: no-repeat; background-size: 100% 100% ; }
+    50%{background-image: url("../Images/IMG_20200329_111934.JPG"); background-repeat: no-repeat; background-size: 100% 100% ; }
+    100%{background-image: url("../Images/IMG_20200329_111907.JPG"); background-repeat: no-repeat; background-size: 100% 100% ; }
+}
+
+.menu{
+    position: relative;
+}
+
+.main-ul{
+    margin: 0px;
+    padding: 0px;
+}
+.main-li{
+    list-style-type: none;
+    float: left;
+    width: 20%;
+    border: 1px solid red;
+    background-color: black;
+    text-align: center;
+
+}
+.main-li a{
+    text-decoration: none;
+    color: white;
+    height: 46px;
+    padding-top: 14px;
+    display: block;
+    transition: 2s;
+}
+.main-li a:hover{
+    background-color: white;
+    color: red;
+}
+
+.second-ul{
+    margin: 0px;
+    padding: 0px;
+}
+.second-li{
+    list-style-type: none;
+    border: 1px solid red;
+    display: none;
+}
+.main-ul .main-li:hover .second-li{
+    display: block;
+}
+
+.add{
+    background-image: url("../Images/add.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.service1{
+    background-color: rgba(107,255,61,0.41);
+    transition: 2s;
+}
+.service1 h1{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.service1 h1 a{
+    height: 50px;
+    text-decoration: none;
+    display: block;
+}
+.service1:hover{
+    box-shadow: 0px 0px 3px 3px blueviolet;
+    background-color: black;
+}
+
+.AboutService{
+    color: red;
+    font-family: sans-serif;
+}
+
+.pad{
+    padding: 2px 5px;
+
+}
+.img-content{
+    border-left: 5px solid chartreuse;
+    float: left;
+}
+.img-content:hover{
+    box-shadow: 0px 0px 2px 2px gray;
+}
+
+.img-c{
+    height: 150px;
+    width: 100%;
+    padding: 0px;
+}
+.img-content h2{
+    text-align: center;
+    padding: 0px;
+}
+.img-content p{
+    text-align: justify;
+    padding: 2px;
+}
+.img-content a{
+    float: right;
+    background-color: green;
+    color: white;
+    padding-right: 5px;
+    margin-bottom: 5px;
+}
+
+.height{
+    height: 200px;
+}

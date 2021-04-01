@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+    </head>
+    <body>
+        <h1>This is a heading1</h1>
+        <h1>This is a heading2</h1>
+        <h1>This is a heading3</h1>
+        <h1>This is a heading4</h1>
+
+
+
+        <script>
+            var a = 10;
+            var b = 20;
+            var c = 30;
+            document.write(a>b);
+            document.write('<br/>');
+            document.write(a<b);
+            document.write('<br/>');
+            document.write(a<b && b<c);
+
+            document.write('<br/>');
+            if(a>b){
+                document.write(a>b);
+            }else if(b>c){
+                document.write(b>c);
+            }else{
+                document.write(a<c);
+            }
+            document.write('<br/>');
+            var i;
+            for(i=0;i<10;i++){
+                document.write('DIU'+'<br/>');
+            }
+
+            var data = [10,20,30,'Nitish','Biswas'];
+            var n;
+
+            document.write('<br/>');
+
+            document.write(data.length);
+            document.write('<br/>');
+
+            for(n in data){
+                document.write(data[n]+' ');
+            }
+
+
+            var headingTags = document.getElementsByTagName('h1');
+            document.write(headingTags[2].innerHTML+'<br/>');
+            // var y;
+            // for(y in headingTags){
+            //     document.write(headingTags[y].innerHTML+'<br/>');
+            // }
+        </script>
+    </body>
+</html>

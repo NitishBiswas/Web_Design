@@ -1,0 +1,151 @@
+*{box-sizing: border-box; }
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.col-1{width: 8.33%; }
+.col-2{width: 16.66%; }
+.col-3{width: 25%; }
+.col-4{width: 33.33%; }
+.col-5{width: 41.66%; }
+.col-6{width: 50%; }
+.col-7{width: 58.33%; }
+.col-8{width: 66.66%; }
+.col-9{width: 75%; }
+.col-10{width: 83.33%; }
+.col-11{width: 91.66%; }
+.col-12{width: 100%; }
+
+[class*='col-']{
+    border: 1px solid gray;
+    float: left;
+}
+
+.row:after{
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+.container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.header-height{height: 200px; }
+.menu-height{height: 50px; }
+.content-height{height: 600px; }
+.footer-height{height: 50px; }
+
+.logo{
+    background-image: url("Images/days-in-colours-Logo-1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner{
+    background-color: rgba(103,255,2,0.19);
+    animation-name: banner;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes banner {
+    0%{ background-color: rgba(103,255,2,0.19); }
+    50%{ background-color: rgba(255,0,228,0.19); }
+    100%{ background-color: rgba(0,255,181,0.19); }
+}
+.heading{
+    text-align: center;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    color: chartreuse;
+    text-shadow: 4px 2px gray;
+}
+
+.searhElement{
+    margin-left: 37%;
+    margin-top: 4%;
+}
+.searhElement:focus{
+    box-shadow: 0px 0px 1px 1px chartreuse;
+}
+.searchBtn:focus{
+    color: red;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    list-style-type: none;
+    float: left;
+    width: 20%;
+    border: 1px solid red;
+    background-color: black;
+
+    text-align: center;
+
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    height: 47px;
+    padding-top: 14px;
+    display: block;
+    transition: 2s;
+}
+ul li a:hover{
+    background-color: white;
+    color: red;
+}
+
+@media screen and (max-width: 500px ){
+    [class*='col-']{
+        width: 100%;
+    }
+}
+
+.content{
+    width: 300px;
+    float: left;
+    text-align: justify;
+    margin: 5px;
+    padding: 5px;
+    border-left: 5px solid gray;
+}
+.content:hover{
+    box-shadow: 0px 0px 3px 2px gray;
+    border-left: none;
+}
+.img{
+    height: 150px;
+    width: 200px;
+    margin: 5px;
+    float: left;
+}
+.reading{
+    float: right;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 501px ) and (max-width: 780px ){
+    .col-m1{width: 8.33%; }
+    .col-m2{width: 16.66%; }
+    .col-m3{width: 25%; }
+    .col-m4{width: 33.33%; }
+    .col-m5{width: 41.66%; }
+    .col-m6{width: 50%; }
+    .col-m7{width: 58.33%; }
+    .col-m8{width: 66.66%; }
+    .col-m9{width: 75%; }
+    .col-m10{width: 83.33%; }
+    .col-m11{width: 91.66%; }
+    .col-m12{width: 100%; }
+
+    .display-none{
+        display: none;
+    }
+}

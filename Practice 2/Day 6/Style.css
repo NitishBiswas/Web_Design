@@ -1,0 +1,18 @@
+.div-one{
+    height: 300px;
+    width: 50%;
+    background-color: green;
+    float: left;
+}
+.div-two{
+    height: 300px;
+    width: 50%;
+    background-color: red;
+    float: left;
+}
+.div-three{
+    height: 300px;
+    width: 100%;
+    background-color: gray;
+    float: left;
+}

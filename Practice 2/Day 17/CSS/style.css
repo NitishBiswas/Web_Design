@@ -1,0 +1,143 @@
+.div-1{
+    height: 400px;
+    width: 350px;
+    /*border: 1px solid chartreuse;*/
+    background-color: black;
+    box-shadow: 0px 0px 5px 10px gray;
+}
+
+.div-2{
+    height: 120px;
+    width: 100%;
+    /*border: 1px solid chartreuse;*/
+}
+.div-3{
+    height: 20px;
+    width: 100%;
+    /*border: 1px solid chartreuse;*/
+    position: relative;
+    text-align: center;
+    background-color: white;
+    color: black;
+    animation-name: test;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes test {
+    0%{color: chartreuse;background-color: black; }
+    25%{color: red;background-color: white; }
+    50%{color: blue;background-color: red; }
+    75%{color: black;background-color: gold; }
+    100%{color: gold;background-color: white; }
+}
+
+.div-21{
+    height: 25%;
+    width: 100%;
+    color: chartreuse;
+}
+.div-21 input{
+    border-style: none;
+    width: 58%;
+    background-color: black;
+    color: white;
+    text-align: right;
+    border-color: chartreuse;
+}
+.div-22{
+    height: 25%;
+    width: 100%;
+    color: chartreuse;
+}
+.div-22 input{
+    border-style: none;
+    width: 50%;
+    background-color: black;
+    color: white;
+    text-align: right;
+    border-color: chartreuse;
+}
+.div-23{
+    height: 25%;
+    width: 100%;
+    color: chartreuse;
+}
+.div-23 input{
+    border-style: none;
+    width: 53%;
+    background-color: black;
+    color: white;
+    text-align: right;
+    border-color: chartreuse;
+}
+.div-24{
+    height: 25%;
+    width: 100%;
+    color: chartreuse;
+}
+.div-24 input{
+    border-style: none;
+    width: 68%;
+    background-color: black;
+    color: white;
+    text-align: right;
+    border-color: chartreuse;
+}
+
+.div-op{
+    height: 40px;
+    width: 100%;
+    padding-top: 2%;
+}
+.div-op input{
+    width: 15%;
+    height: 35px;
+    margin: 2%;
+    font-size: 30px;
+    color: red;
+}
+
+.div-789{
+    height: 40px;
+    width: 100%;
+    padding-top: 2%;
+}
+.div-789 input{
+    width: 20%;
+    margin: 6%;
+    height: 35px;
+    font-size: 20px;
+}
+.div-456{
+    height: 40px;
+    width: 100%;
+    padding-top: 2%;
+}
+.div-456 input{
+    width: 20%;
+    margin: 6%;
+    height: 35px;
+    font-size: 20px;
+}
+.div-123{
+    height: 40px;
+    width: 100%;
+    padding-top: 2%;
+}
+.div-123 input{
+    width: 20%;
+    margin: 6%;
+    height: 35px;
+    font-size: 20px;
+}
+.div-0{
+    height: 40px;
+    width: 100%;
+    padding-top: 2%;
+}
+.div-0 input{
+    width: 20%;
+    margin: 6%;
+    height: 35px;
+    font-size: 20px;
+}

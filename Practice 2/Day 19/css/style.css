@@ -1,0 +1,35 @@
+
+.time{
+    text-align: center;
+    color: red;
+    border: 3px solid blueviolet;
+    background-color: black;
+    font-size: 80px;
+    margin-top: 0px;
+}
+#heading{
+    color: blueviolet;
+    font-size: 50px;
+    margin-bottom: 0px;
+    text-shadow: 0px 5px 5px chartreuse;
+}
+.row{
+    border: 3px solid blueviolet;
+    width: 600px;
+    margin-left: 30%;
+    animation-name: watch;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+@keyframes watch {
+    0%{ background-color: rgba(109,255,3,0.21); }
+    25%{ background-color: rgba(255,0,1,0.21); }
+    50%{ background-color: rgba(72,0,255,0.21); }
+    75%{ background-color: rgba(0,217,255,0.21); }
+    100%{ background-color: black; }
+}
+
+.picture{
+    margin-left: 33%;
+    margin-top: 20px;
+}

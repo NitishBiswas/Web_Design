@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOME</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <table>
+        <tr>
+            <td>First Name :</td>
+            <td><input type="text" list="na" name="first_name" id="firstName"/></td>
+        </tr>
+        <tr>
+            <td>Last Name :</td>
+            <td><input type="text" name="last_name" id="lastName"/></td>
+        </tr>
+        <tr>
+            <td>Date Of Birth :</td>
+            <td><input type="date" name="Date" id="name"/></td>
+        </tr>
+        <tr>
+            <td>Address :</td>
+            <td><textarea name="address" id="address"></textarea></td>
+        </tr>
+        <tr>
+            <td>Email :</td>
+            <td><input type="email" name="email" id="email"/></td>
+        </tr>
+        <tr>
+            <td>Phone Number :</td>
+            <td><input type="number" name="phone_number" id="phoneNumber"/></td>
+        </tr>
+        <tr>
+            <td>Gender :</td>
+            <td>
+                <input type="radio" name="gender" value="Male"/> Male
+                <input type="radio" name="gender" value="Female"/> Female
+            </td>
+        </tr>
+        <tr>
+            <td>Image :</td>
+            <td><input type="file" name="image" id="image" accept="image/*" /></td>
+        </tr>
+        <tr>
+            <td>District Name :</td>
+            <td>
+                <select>
+                    <option>----Select District----</option>
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="Madaripur">Madaripur</option>
+                    <option value="Barisal">Barisal</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" value="agree" name="agree" id="agree"/> I agree with all terms & condition.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="button" name="btn" id="btn" value="Submit"/></td>
+        </tr>
+    </table>
+    <datalist id="na">
+        <option value="Rahim">
+        <option value="Karim">
+        <option value="Jasim">
+        <option value="Nitish">
+    </datalist>
+</body>
+</html>

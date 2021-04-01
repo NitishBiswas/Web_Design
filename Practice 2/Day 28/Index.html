@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HOME</title>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+    <br/>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div>
+                        <a href="#modal1" data-toggle="modal">
+                            <button type="button" class="btn btn-outline-success">Click Me</button>
+                        </a>
+                    </div>
+                    <div class="badge badge-danger">
+                        <span>Hello</span>
+                    </div>
+                    <div class="badge badge-dark">
+                        <span>Hello</span>
+                    </div>
+                    <div class="badge badge-primary">
+                        <span>Hello</span>
+                    </div>
+                    <div class="badge badge-success">
+                        <span>Hello</span>
+                    </div>
+                    <div>
+                        <div class="badge badge-danger badge-pill">
+                            <span>Hello</span>
+                        </div>
+                        <div class="badge badge-dark badge-pill">
+                            <span>Hello</span>
+                        </div>
+                        <div class="badge badge-primary badge-pill">
+                            <span>Hello</span>
+                        </div>
+                        <div class="badge badge-success badge-pill">
+                            <span>Hello</span>
+                        </div>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-success">
+                            Message<span class="badge badge-pill badge-light">13</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <br/>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="accordion" id="myAccordion">
+                        <div class="card">
+                            <div class="card-header">
+                                <a href="#cardOne" data-toggle="collapse">Content One</a>
+                            </div>
+                            <div class="collapse" id="cardOne" data-parent="#myAccordion">
+                                <div class="card-body">
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi autem delectus eligendi eos eum facere fugiat ipsam laborum libero molestias nesciunt perspiciatis quasi qui, quis sequi similique temporibus voluptas!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a href="#cardTwo" data-toggle="collapse">Content Two</a>
+                            </div>
+                            <div class="collapse" id="cardTwo" data-parent="#myAccordion">
+                                <div class="card-body">
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi autem delectus eligendi eos eum facere fugiat ipsam laborum libero molestias nesciunt perspiciatis quasi qui, quis sequi similique temporibus voluptas!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a href="#cardThree" data-toggle="collapse">Content Three</a>
+                            </div>
+                            <div class="collapse" id="cardThree" data-parent="#myAccordion">
+                                <div class="card-body">
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi autem delectus eligendi eos eum facere fugiat ipsam laborum libero molestias nesciunt perspiciatis quasi qui, quis sequi similique temporibus voluptas!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="accordion" id="myAccordionTwo">
+                        <div class="card">
+                            <div class="card-header">
+                                <a href="#card1" data-toggle="collapse">Content One</a>
+                            </div>
+                            <div class="collapse" id="card1" data-parent="#myAccordionTwo">
+                                <ul class="list-group">
+                                    <li class="list-group-item"><a href="">Link One</a></li>
+                                    <li class="list-group-item"><a href="">Link Two</a></li>
+                                    <li class="list-group-item"><a href="">Link Three</a></li>
+                                    <li class="list-group-item"><a href="">Link Four</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a href="#card2" data-toggle="collapse">Content Two</a>
+                            </div>
+                            <div class="collapse" id="card2" data-parent="#myAccordionTwo">
+                                <ul class="list-group">
+                                    <li class="list-group-item"><a href="">Link One</a></li>
+                                    <li class="list-group-item"><a href="">Link Two</a></li>
+                                    <li class="list-group-item"><a href="">Link Three</a></li>
+                                    <li class="list-group-item"><a href="">Link Four</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a href="#card3" data-toggle="collapse">Content Three</a>
+                            </div>
+                            <div class="collapse" id="card3" data-parent="#myAccordionTwo">
+                                <ul class="list-group">
+                                    <li class="list-group-item"><a href="">Link One</a></li>
+                                    <li class="list-group-item"><a href="">Link Two</a></li>
+                                    <li class="list-group-item"><a href="">Link Three</a></li>
+                                    <li class="list-group-item"><a href="">Link Four</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="modal" id="modal1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1>Heading</h1>
+                        <button type="button" data-dismiss="modal" class="close">x</button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem labore libero molestiae mollitia neque officia qui quis, quo quod, quos tempore, vero voluptas. Debitis expedita libero magni nihil repellendus voluptate.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal" class="close">close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    </body>
+</html>

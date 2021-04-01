@@ -1,0 +1,14 @@
+
+[class*='col-']{
+    //border: 1px solid black;
+}
+.img-resposive{
+    height: 100%;
+    width: 100%;
+}
+
+.header-height{ height: 250px; }
+.menu-height{ height: 50px; }
+.content-height{ height: 750px; }
+.big-footer-height{ height: 350px; }
+.footer-height{ height: 50px; }

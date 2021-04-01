@@ -1,0 +1,90 @@
+.div-one{
+    height: 200px;
+    width: 300px;
+    background-color: green;
+    float: left;
+}
+.div-two{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50px;
+    position: relative;
+    left: 90px;
+    top: 50px;
+}
+.div-three{
+    height: 400px;
+    width: 10px;
+    background-color: gray;
+    float: left;
+}
+.div-4{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    position: absolute;
+    right: 50px;
+    transform: rotate(0deg) scale(1);
+    transition: .5s;
+}
+.div-4:hover{
+    transform: rotate(360deg) scale(1.5);
+}
+@keyframes demo1 {
+    0%{ background-color: green; }
+    50%{ background-color: red; }
+    100%{ background-color: green; }
+}
+@keyframes demo2 {
+    0%{ background-color: green; }
+    50%{ background-color: red; }
+    100%{ background-color: green; }
+}
+.div-5{
+    height: 100px;
+    width: 10px;
+    background-color: green;
+    position: absolute;
+    bottom: 50px;
+    margin-left: 80px;
+    animation-name: demo1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.div-6{
+    height: 100px;
+    width: 10px;
+    background-color: red;
+    position: absolute;
+    bottom: 50px;
+    transform: skewX(40deg);
+    margin-left: 130px;
+}
+.div-7{
+    height: 100px;
+    width: 10px;
+    background-color: green;
+    position: absolute;
+    bottom: 50px;
+    margin-left: 180px;
+    animation-name: demo2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes demo {
+    0%{ left: 50px; }
+    50%{ background-color: green; left: 850px; }
+    100%{ left: 50px; }
+}
+.div-8{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    border: 5px solid green;
+    animation-name: demo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}

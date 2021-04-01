@@ -1,0 +1,51 @@
+*{ box-sizing: border-box; }
+.menu{
+
+}
+.main-ul{
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid gray;
+    list-style-type: none;
+}
+.main-ul li{
+    float: left;
+    width: 20%;
+    height: 50px;
+    border: 1px solid gray;
+    background-color: black;
+}
+.main-ul li a{
+    height: 46px;
+    text-align: center;
+    padding-top: 13px;
+    display: block;
+    text-decoration: none;
+    transition: 2s;
+}
+.main-ul li a:hover{
+    background-color: white;
+    color: red;
+}
+.second-ul{
+    display: none;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid gray;
+    list-style-type: none;
+}
+.second-ul li{
+    width: 100%;
+    height: 50px;
+    border: 1px solid gray;
+    background-color: black;
+}
+.second-ul li a{
+    height: 46px;
+    text-align: center;
+    padding-top: 13px;
+    text-decoration: none;
+}
+.main-ul li:hover .second-ul{
+    display: block;  
+}

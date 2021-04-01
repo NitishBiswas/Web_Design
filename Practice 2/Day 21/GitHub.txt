@@ -1,0 +1,17 @@
+$ git config --global user.name " " [Enter User Name]
+
+$ git config --global user.email " " [Enter User Email]
+
+$ git status [Check Status]
+
+$ git clone [Connect To The GitHub Server]
+
+$ git add" "[Adding A New File]
+
+$ git add. [Adding All File]
+
+$ git commit -m " Write Something" [Commited To GitHub]
+
+$ git push [Upload File]
+
+$ git pull [Download File]

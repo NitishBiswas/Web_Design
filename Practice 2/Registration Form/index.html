@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div style="border: 1px solid blueviolet;background-color: rgba(107,255,61,0.41); width: 450px; margin-left: 390px">
+        <h1 align="center"><strong><u><i>Registration Form</i></u></strong></h1>
+        <table align="center">
+            <tr>
+                <td height="40px">First Name</td>
+                <td><input type="text" name="firstName" id="first_name"/></td>
+            </tr>
+            <tr>
+                <td height="40px">Last Name</td>
+                <td><input type="text" name="lastName" id="last_name"/></td>
+            </tr>
+            <tr>
+                <td height="40px">Name of Institute</td>
+                <td><input type="text" name="institute" id="institute" value="Dhaka International University" readonly/></td>
+            </tr>
+            <tr>
+                <td height="40px">Dept. Name</td>
+                <td>
+                    <select>
+                        <option value="CSE">CSE</option>
+                        <option value="CSE">EEE</option>
+                        <option value="CSE">EETE</option>
+                        <option value="CSE">Civil</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td height="40px">Contact Number</td>
+                <td><input type="number" value="contactNumber" id="contact_number"/></td>
+            </tr>
+            <tr>
+                <td height="40px">Mail ID</td>
+                <td><input type="text" name="mailId" id="mail_id"/></td>
+            </tr>
+            <tr>
+                <td height="40px">Address</td>
+                <td>
+                    <textarea name="address" id="addressula "></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td height="40px">NID Sr. No.</td>
+                <td><input type="number" name="NId" id="NID"/></td>
+            </tr>
+            <tr>
+                <td height="40px">Date Of Birth</td>
+                <td><input type="date" name="dateOdBirth" id="date_of_birth"/></td>
+            </tr>
+            <tr>
+                <td height="40px">Gender</td>
+                <td>
+                    <input type="radio" name="gender" value="male" checked />Male
+                    <input type="radio" name="gender" value="female"/>Female
+                </td>
+            </tr>
+            <tr>
+                <td height="40px">Photo</td>
+                <td><input type="file" name="photo" id="photo" accept="image/*"></td>
+            </tr>
+            <tr>
+                <td height="40px"></td>
+                <td><input type="checkbox" name="agree" id="agree"/>I agree with all the terms and conditions.</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-3 header-height"></div>
+            <div class="col-9 header-height"></div>
+        </div>
+        <div class="row">
+            <div class="col-12 menu-height"></div>
+        </div>
+        <div class="row">
+            <div class="col-3 content-height"></div>
+            <div class="col-9 content-height">
+
+                <form action="" method="post" id="form">
+                    <table>
+                        <tr>
+                            <td>First Name</td>
+                            <td>
+                                <input type="text" id="firstName"/>
+                                <span id="firstNameError" style="color: red;"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Last Name</td>
+                            <td>
+                                <input type="text" id="lastName"/>
+                                <span id="lastNameError" style="color: red;"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Email Address</td>
+                            <td>
+                                <input type="email" id="emailAddress"/>
+                                <span id="emailAddressError" style="color: red;"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Password</td>
+                            <td>
+                                <input type="password" id="password"/>
+                                <span id="passwordError" style="color: red;"></span>
+                                <input type="checkbox" id="passwordCheck"/>show password
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Conform Password</td>
+                            <td>
+                                <input type="password" id="conformPassword"/>
+                                <span id="conformPasswordError" style="color: red;"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Gender Info</td>
+                            <td>
+                                <input type="radio" name="gender" value="male"/>Male
+                                <input type="radio" name="gender" value="female"/>Female
+                                <span id="genderError" style="color: red;"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>District Name</td>
+                            <td>
+                                <select id="districtName">
+                                    <option value=" ">---Select District---</option>
+                                    <option value="dhaka">Dhaka</option>
+                                    <option value="Madaripur">Madaripur</option>
+                                    <option value="Savar">Savar</option>
+                                    <option value="Gazipur">Gazipur</option>
+                                </select>
+                                <span id="districtError" style="color: red;"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="submit" id="submit" value="Submit"/>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 footer-height"></div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/script.js"></script>
+    </body>
+</html>

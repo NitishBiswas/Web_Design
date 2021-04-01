@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HOME</title>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container">
+            <a href="" class="navbar-brand">NITISH</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="myMenu">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">About</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">Service</a>
+                        <ul class="dropdown-menu bg-dark text-center">
+                            <li class="nav-item"><a class="nav-link" href="">Service 1</a></li>
+                            <li class="nav-item"><a class="nav-link" href="">Service 2</a></li>
+                            <li class="nav-item"><a class="nav-link" href="">Service 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+                </ul>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#login" class="nav-link" data-toggle="modal">Login</a></li>
+                    <li class="nav-item"><a href="#signup" class="nav-link" data-toggle="modal">SignUp</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="mySlider" class="carousel slide" data-ride="carousel" data-interval="1800">
+                        <ol class="carousel-indicators">
+                            <li data-target="#mySlider" data-slide-to="0" class="active"></li>
+                            <li data-target="#mySlider" data-slide-to="1"></li>
+                            <li data-target="#mySlider" data-slide-to="2"></li>
+                            <li data-target="#mySlider" data-slide-to="3"></li>
+                            <li data-target="#mySlider" data-slide-to="4"></li>
+                        </ol>
+
+                        <div class="carousel-inner slide">
+                            <div class="carousel-item active">
+                                <img src="Images/1.jpg" alt="" class="img-resposive"/>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/2.jpg" alt="" class="img-resposive"/>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/3.jpg" alt="" class="img-resposive"/>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/4.jpg" alt="" class="img-resposive"/>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/5.jpg" alt="" class="img-resposive"/>
+                            </div>
+                        </div>
+
+                        <a href="#mySlider" class="carousel-control-prev" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a href="#mySlider" class="carousel-control-next" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="modal fade" id="login">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" data-dismiss="modal" class="close">x</button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" class="form-control" placeholder="example@gmail.com"/>
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" class="form-control"/>
+                    </div>
+                    <div class="form-group">
+                        <input type="button" class="btn btn-outline-success btn-block" value="Login"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="signup">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" data-dismiss="modal" class="close">x</button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" class="form-control" placeholder="example@gmail.com"/>
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" class="form-control"/>
+                    </div>
+                    <div class="form-group">
+                        <label>Conform Password</label>
+                        <input type="password" class="form-control"/>
+                    </div>
+                    <div class="form-group">
+                        <input type="button" class="btn btn-outline-success btn-block" value="SignUp"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    </body>
+</html>
